@@ -1,0 +1,416 @@
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buurtsuper</title>
+    </head><body> 
+      <link rel="stylesheet" href="pg.css">
+    <script>
+    function stickyMenu (){
+      var sticky=document.getElementById('sticky');
+      if(window.pageYOffset > 220){
+        sticky.classList.add('sticky');
+      }
+      else {
+        sticky.classList.remove('sticky');
+      }
+    }
+    window.onscroll - function(){
+      stickyMenu ();
+    }
+    </script>
+  
+  
+    <div class="parallax">
+      <div class="page-title"> Buurtsuper Leo v.d. Drift </div>
+    </div>
+    <div class="menu" id="sticky">
+      <label style="padding-right: 30px;" for="toggle" id="hamburger">☰</label>
+      <input type="checkbox" id="toggle">
+      <ul class="menu-ul" id="menu-ul">
+
+        <a href="#deals" class="a-menu"> <li>Deals</li></a>
+        <a href="#fruit" class="a-menu"> <li>Fruit</li></a>
+        <a href="#groente" class="a-menu"> <li>Groente</li></a>
+        <a href="#beleg" class="a-menu"> <li>Brood&amp;Beleg</li></a>
+        <a href="#over" class="a-menu"> <li>Over ons</li></a>
+      </ul>
+
+      </div><br><br><br>
+      <!-- home begin -->
+    <div class="container">
+    <b> <h2>  Welkom!</h2> </b> <br>
+      <div class="beej">Bij Buurtsuper Leo v.d. Drift bent u aan het juiste adres als het gaat om verse producten. <br>
+      Heeft u als bedrijf of kantoor een lunch nodig bestel bij ons makkelijk Online ! <br> De producten, die u nodig heeft voor een smakelijke lunch. <br>
+      Bezorging wordt uiteraard geregeld door ons in een straal van 5 km, <br> wilt u meer weten mailt u ons gerust of bel 070-4140891 Namens ons alvast eet smakelijk.<br> </div>
+      <br>
+      <section class="grood">
+      <div class="grod3">
+      <b> <h3>Elke dag vers brood &amp; beleg </h3></b> 
+      Elke dag hebben wij vers brood wit / bruin / puntjes /<br> krentenbollen noem maar op van de warme bakker<br> Laurens Bosman uit Rijswijk. <br>
+      Ook bakken wij zelf bepaalde broodjes <br> zoals croisants, stokbrood ook appelflappen bakken<br>  we zelf lekker voor bij de koffie. <br>
+      Elke dag vers beleg gesneden van<br>  het mes en vers verpakt, uw <br> belegsoorten hebben we in huis geniet ervan<br>  lekker op uw brood. <br> <br>
+      <img src="brood.jpg" class="item-image"><br> </div>
+      <div class="grod2">
+      <b> <h3> Elke dag vers fruit </h3></b> 
+      Wat is er lekkerder als een stukje <br> fruit gezond voor bij de lunch of na <br>de avondmaal. <br>
+      Elke dag word ons assortiment<br> aangevuld met vers fruit,<br> bestel het mee voor bij de lunch. <br>
+      <img src="fruit.jpg" class="item-image"> <br> <br> <br> </div>
+      <div class="grod1">
+      <b> <h3> Elke dag verse groenten </h3> </b> 
+      Bij ons kunt u ook terect voor<br> dagelijks verse groenten. <br><br>
+      <img src="groente.jpg" class="item-image">
+      </div></section>
+
+    
+                  <!--Deal begint-->
+            <div class="deal-container">
+              <div class="parallax">
+                <div class="title">DEALS</div>
+              </div>
+              <div class="deel">
+                <div class="deal">
+                  PROFITEER NU VAN ONZE WEKELIJKSE DEALS <br>
+                </div><br>
+                <div class="deal">
+                  1+1 OP ALLE <br>SOORTEN BROOD <br>
+                      <button class="voegtoe-bttn"> Voeg toe</button>
+                </div> <br>
+                <div class="deal">
+                  BIJ AANKOOP VAN 2 KOMKOMMERS KRIJGT U EEN GRATIS VERSHOUDBAKJE CADEAU
+                    <button class="voegtoe-bttn"> Voeg toe</button>
+                </div> <br>
+                <div class="deal">
+                  NU 25% KORTING OP KERSEN (vanaf 500GR)
+                    <button class="voegtoe-bttn"> Voeg toe</button>
+                </div> <br>
+              </div>
+            </div>
+                  
+                  <!-- Deal eindigt -->
+                  <!-- groente begint -->
+                    <div class="groente-container" id="groente">
+                      <div class="parallax">
+                        
+                        <div class="title"> GROENTE </div>
+                      </div>
+                      <span class="vogo">
+                      <div class="items1" id="leen">
+                       <div style="padding-top: 40px" class="images1">
+                          <img src="komkom.jpg" class="item-image-size1" id="lix">
+                      <span class="veges">
+                       <br> <b> Verse Komkommer <b> <br>
+                          <div class="item-select">
+                            Prijs : €1.- per stuk
+                          </div>
+                           Qty:
+                          <select class="item-select">
+                            <option> 1 stuk </option>
+                            <option> 2 stuks </option>
+                            <option> 3 stuks </option>
+                            <option> 4 stuks </option>
+                            <option> 5 stuks </option>
+                          </select><br>
+
+                          <button class="betaal-bttn"> Voeg toe </button><br><br>
+                         </b></b></span></div><b><b> </b></b><div class="items1" id="lix"><b><b>
+                         	</b></b></div><b><b>
+                    <div class="images1">
+                      <img src=" rodepaprika.jpg" class="item-image-size1" id="lix"> <br>
+                  <span class="veges">
+                   <br> <b> Rode Paprika <b> <br>
+                      <div class="item-select">
+                        Prijs : €1.50 per stuk
+                      </div>
+                       Qty:
+                      <select class="item-select">
+                        <option> 1 stuk </option>
+                        <option> 2 stuks </option>
+                        <option> 3 stuks </option>
+                        <option> 4 stuks </option>
+                        <option> 5 stuks </option>
+                      </select><br>
+                      <button class="betaal-bttn"> Voeg toe </button> <br> <br>
+                     </b></b></span></div><b><b> 
+                    </b></b></b></b></div><b><b><b>
+
+                    <div class="items1" id="leen">
+                  <div class="images1"><br>
+                        <img src="spruit.jpg" class="item-image-size1" id="lix">
+                    <span class="veges">
+                    <br>  <b>  Brusselse Spruiten <b> <br>
+                        <div class="item-select">
+                          Prijs : €1,69 per 100 Gram
+                        </div>
+                         Qty:
+                        <select class="item-select">
+                          <option> 100 GR </option>
+                          <option> 200 GR </option>
+                          <option> 300 GR </option>
+                          <option> 400 GR </option>
+                          <option> 500 GR </option>
+                        </select><br>
+                        <button class="betaal-bttn"> Voeg toe </button><br><br>
+                        </b></b></span></div><b><b> 
+                  </b></b></div><b><b>
+                     <div class="items1">
+                  <div class="images1">
+                    <img src="wortel.jpg" class="item-image-size1" id="lix"><br><br>
+                <span class="veges">
+                 <b> Wortel <b> <br>
+                    <div class="item-select">
+                      Prijs : €1.30 per zak
+                    </div>
+                     Qty:
+                    <select class="item-select">
+                      <option> 1 zak </option>
+                      <option> 2 zakken </option>
+                      <option> 3 zakken </option>
+                      <option> 4 zakken </option>
+                      <option> 5 zakken </option>
+                    </select><br>
+                    <button class="betaal-bttn"> Voeg toe </button><br><br>
+                 </b></b></span></div><b><b> 
+              </b></b></div><b><b>
+                  
+                </b></b></b></b></b></b></b></span></div><b><b><b>
+               
+                
+                  <!-- groente eindigt -->
+                  <!-- Fruit begint -->
+                  <div class="fruit-container" id="fruit">
+
+                    <div class="parallax">
+                      <div class="title"> FRUIT </div>
+                    </div>
+        <section class="container1">
+                      <div class="items2">
+                      <div class="images2"><br>
+                        <img src="peer.jpg" class="item-image-size" id="lix"><br>
+                    </div>
+                    <div class="beschrijving">
+                     <br> <b> Peren <b> <br>
+                        <div class="item-select">
+                          Prijs : €2,09 per zak (1 kilogram)
+                        </div>
+                         Qty:
+                        <select class="item-select">
+                          <option> 1 zak </option>
+                          <option> 2 zakken </option>
+                          <option> 3 zakken </option>
+                          <option> 4 zakken </option>
+                          <option> 5 zakken </option>
+                        </select><br>
+                        <button class="betaal-bttn"> Voeg toe </button><br><br>
+                      </b></b></div><b><b>
+                      <div class="items">
+                <div class="images2">
+                  <img src="appel.jpg" class="item-image-size" id="lix">
+              </div>
+              <div class="beschrijving">
+               <br> <b> Appels <b> <br>
+                  <div class="item-select">
+                    Prijs :€2.99 per zak (1 kilogram)
+                  </div>
+                   Qty:
+                  <select class="item-select">
+                    <option> 1 zak </option>
+                    <option> 2 zakken </option>
+                    <option> 3 zakken </option>
+                    <option> 4 zakken </option>
+                    <option> 5 zakken </option>
+                  </select><br>
+                  <button class="betaal-bttn"> Voeg toe </button> <br> <br>
+                </b></b></div><b><b>
+            </b></b></div><b><b>
+                 </b></b></b></b></div><b><b><b>
+                  <div class="items2">
+                    <div class="images2"><br>
+                      <img src="kersen.jpg" class="item-image-size" id="lix">
+                  </div>
+                  <div class="beschrijving">
+                    <br><b>  Kersen <b> <br>
+                      <div class="item-select">
+                        Prijs : €1,99 per bakje (500 Gram)
+                      </div>
+                       Qty:
+                      <select class="item-select">
+                        <option> 1 bakje </option>
+                        <option> 2 bakjes </option>
+                        <option> 3 bakjes </option>
+                        <option> 4 bakjes </option>
+                        <option> 5 bakjes </option>
+                      </select><br>
+                      <button class="betaal-bttn"> Voeg toe </button><br><br>
+                    </b></b></div><b><b>
+                </b></b></div><b><b>
+                  <div class="items2">
+                  <div class="images2">
+                    <img src=" sinaasappel.jpg" class="item-image-size" id="lix">
+                </div>
+                <div class="beschrijving">
+                  <br><b> Sinaasappels <b> <br>
+                    <div class="item-select">
+                      Prijs : €2,99 per net (2 kilogram)
+                    </div>
+                     Qty:
+                    <select class="item-select">
+                      <option> 1 net </option>
+                      <option> 2 netten </option>
+                      <option> 3 netten </option>
+                      <option> 4 netten </option>
+                      <option> 5 netten </option>
+                    </select><br>
+                    <button class="betaal-bttn"> Voeg toe </button><br><br>
+                  </b></b></div><b><b>
+              </b></b></div><b><b>
+              
+           </b></b></b></b></b></b></b></section></div><b><b><b>
+           
+
+                  <!-- Fruit eindigt -->
+                <!-- B&B begint  (helaas is er wat misgegaan in mijn code waardoor alle tekst naar beleg leidde daarom heb ik besloten om dit stukje eruit te laten)-->
+                
+       <div class="beleg" id="beleg">
+         <div class="parallax">
+           <div class="title"> BROOD &amp; BELEG </div>
+         </div>
+         <div class="bees">
+          <div class="items3">
+            <div class="images3"><br>
+              <img src="broodjes.jpg" class="item-image-size3" id="lix">
+            </div>
+            <div class="beschrijving1">
+              <section class="bbbq">
+                <br> <b> Verschillende soorten brood <b><br>
+                      <div class="item-select">
+                        Prijs : €2,09 per zak (1 kilogram)
+                      </div>
+                       Soort:
+                       <select class="item-select">
+                        <option> Wit</option>
+                        <option> Bruin </option>
+                        <option> Tijger </option>
+                        <option> Volkoren </option>
+                        <option> Mais </option>
+                      </select><br>
+                       Qty:
+                      <select class="item-select">
+                        <option> 1 zak </option>
+                        <option> 2 zakken </option>
+                        <option> 3 zakken </option>
+                        <option> 4 zakken </option>
+                        <option> 5 zakken </option>
+                      </select><br>
+                      <button class="betaal-bttn"> Voeg toe </button><br><br>
+                       <div class="items">
+            <div class="images3">
+              <img src="beleg3.jpg" class="item-image-size3" id="lix">
+            </div>
+            <div class="beschrijving1">
+              <section class="bbbq">
+                <br><b> Yorkham <b> <br>
+                <div class="item-select">
+                  Prijs :€2.29 (ca 110 gram)
+                </div>
+                 Qty:
+                <select class="item-select">
+                  <option> 1  </option>
+                  <option> 2  </option>
+                  <option> 3  </option>
+                  <option> 4  </option>
+                  <option> 5  </option>
+                </select><br>
+                <button class="betaal-bttn"> Voeg toe </button> <br><br><br>
+              </b></b></section><b><b>
+            </b></b></div><b><b>
+          </b></b></div><b><b>
+              </b></b></b></b></section><b><b><b>
+            </b></b></b></div><b><b><b>
+          </b></b></b></div><b><b><b>
+          <div class="items3">
+            <div class="images3"><br>
+              <img src="beleg1.jpg" class="item-image-size3" id="lix">
+            </div>
+            <div class="beschrijving1">
+              <section class="bbbq">
+                <br> <b> Roasted ham <b> <br>
+                    <div class="item-select">
+                      Prijs : €2,86 (ca110 Gram)
+                    </div>
+                     Qty:
+                    <select class="item-select">
+                      <option> 1 bakje </option>
+                      <option> 2 bakjes </option>
+                      <option> 3 bakjes </option>
+                      <option> 4 bakjes </option>
+                      <option> 5 bakjes </option>
+                    </select><br>
+                   <button class="betaal-bttn"> Voeg toe </button> <br><br>
+              </b></b></section><b><b>
+            </b></b></div><b><b>
+          </b></b></div><b><b>
+          <div class="items3" id="duua">
+            <div class="images3"> <br>
+              <img src=" beleg2.jpg" class="item-image-size3" id="lix">
+            </div>
+            <div class="beschrijving1">
+              <section class="bbbq">
+                <br><b> Jonge kaas <b> <br>
+                  <div class="item-select">
+                    Prijs : €2,99 (400gram)
+                  </div>
+                   Qty:
+                  <select class="item-select">
+                    <option> 1  </option>
+                    <option> 2  </option>
+                    <option> 3  </option>
+                    <option> 4  </option>
+                    <option> 5  </option>
+                  </select><br>
+                  <button class="betaal-bttn"> Voeg toe </button> <br><br>
+              </b></b></section><b><b>
+            </b></b></div><b><b>
+          </b></b></div><b><b>
+         
+
+
+         </b></b></b></b></b></b></b></div><b><b><b>
+       </b></b></b></div><b><b><b>            
+                  
+
+
+      <!-- home eind -->
+      <!-- footer begin-->
+          <div class="parallax">
+
+            <div class="footer" id="over">
+              <div class="quick-links">
+                <div> LOCATIE </div>
+                <ul>
+                    <li> Linnaeusstraat 175 </li>
+                  </ul>
+                </div>
+                <div class="quick-links">
+                  <div> CONTACT </div>
+                  <ul>
+                      <li>Leo van der Drift </li>
+                      <li> info@buurtsuperleovddrift.nl </li>
+                      <li> (070) 4140891 </li>
+                    </ul>
+                  </div>
+                  <div class="quick-links">
+                    <div> OPENINGSTIJDEN </div>
+                    <ul>
+                        <li> Maandag t/m Vrijdag: <br>7:30 tot 19:00 uur </li>
+                        <li> Zaterdag: <br> 7:30 tot 17:00 uur </li>
+                        <li> Zondag: <br> 10:00 tot 17:00 uur  </li>
+                      </ul>
+                    </div>
+              </div>
+            </div>
+      <!-- footer eind -->
+  
+
+</b></b></b></b></b></b></b></b></b></div>
+ <script src="pg.js"></script>
+</body></html>

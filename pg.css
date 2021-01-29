@@ -1,0 +1,420 @@
+body{
+    margin: 0;
+    font-family: system-ui;
+    box-sizing: border-box;
+}
+.parallax{
+    background-image: url('veggiebg.jpg');
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-title{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-variant: small-caps;
+  font-family:  serif;
+  letter-spacing: 20px;
+}
+.grood{
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.menu{
+  background: #84c487;
+  text-align: center;
+}
+.menu-ul{
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.menu-ul li{
+  font-size:   17px;
+  list-style: none;
+  display: inline-block;
+  padding: 25px 25px 26px 25px;
+}
+.a-menu{
+  text-decoration: none;
+  color: white;
+  clear: right;
+}
+.menu-ul li:hover{
+  background: #5b8c5a;
+  transform: scale(1.2);
+  opacity: 0.7;
+  transition: all 0.15s ease-in;
+}
+.container{
+  margin: 50px 50px 50px 5%
+  width: 90%;
+  text-align: center;
+  
+}
+.catogorie{=
+  width: max-content;
+  margin: 25px;
+  border: 1px solid #184d47;
+  border-radius: 0 0 50px 50px;
+  display: inline-block;
+}
+.catogorie:hover{
+  box-shadow: 0 0 10px 3px #184d47;
+}
+.item-image{
+  height: 250px;
+  width: 290px;
+  
+  padding: 10px;
+}
+.image-title{
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+
+}
+.title{
+  padding: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  color:white;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+.deel{
+  width: 100%;
+  display: flex;
+  flex-wrap: column-wrap;
+}
+.deal{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 18px; 
+  color: white;
+  background: linear-gradient(120deg,#16817a 20%,#cee397 50%, #16817a 80%);
+  width: 25%;
+  padding: 30px;
+}
+
+.voegtoe-bttn{
+  border:1px solid white;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.voegtoe-bttn:hover{
+    box-shadow: 0 0 10px 5px white inset;
+}
+.vogo{
+  display: flex;
+  margin: auto;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+   }
+
+ .images1{ 
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  height: auto;
+  width: 50%;
+  flex-flow: row;
+   }
+   .veges{
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: 50%;
+  text-align: center;
+   }
+   .item-image-size1{
+  height: 180px;
+  width: 200px;
+  padding: 5px;
+}
+.bees{
+  display: flex;
+  flex-wrap: row-wrap;
+  justify-content: center;
+}
+.items3{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.images2{
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  height: auto;
+  width: 50%;
+  flex-flow: column;
+}
+.container1{
+  margin-left: 18%;
+  display: flex;
+  margin: auto;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.items2{
+
+  
+
+}
+
+.item-image-size3{
+  height: 200px;
+  width: 230px;
+  padding: 5px;
+}
+
+.item-image-size{
+  height: 190px;
+  width: 210px;
+  
+}
+.betaal-bttn{
+  border: 1px solid #184d47
+  background:#184d47;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: black;
+}
+.betaal-bttn:hover{
+  border: 1px solid #5b8c5a;
+  box-shadow: 0 0 10px 5px #5b8c5a inset;
+}
+.footer{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+.quick-links{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  min-width: 30%;
+}
+.quick-links ul{
+  padding: 0;
+}
+.quick-links li{
+  list-style:none;
+  padding: 10px;
+  font-weight: 300;
+}
+label{
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  float: right;
+  width: 26px;
+}
+#toggle{
+  display: none;
+}
+
+#lix:hover{
+  opacity: 0.7;
+  transform: scale(1.2);
+  transition: all 0.25s ease-in;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+   label{
+      display: block;
+      cursor: pointer;
+     
+      align-items: center;
+      padding-left: 22px;
+
+
+    }
+    .menu-ul{
+      display: none;
+      width: 100%;
+      flex-direction: column;
+    }
+    .menu-ul.show{
+      display: flex;
+    }
+
+    body{
+    	
+    	width: 106%;
+    }
+
+   
+    .menu {
+      text-align: center;
+      width: 100%;
+
+    }
+    .deel{
+      display: grid;
+
+      grid-template-columns: auto auto auto auto;
+    }
+
+    
+
+   .grood{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+   }
+    .menu a {
+      display:block;
+      border-bottom: 1px solid #eaeaeb;
+      margin: 0;
+    }
+    #toggle:checked + .menu{
+      display: block;
+    }
+
+   .container{
+  width: 100%;
+ 
+   }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #5b8c5a;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}}
+
+@media only screen and (max-width: 425px) {
+    label{
+      display: block;
+      cursor: pointer;
+     
+      align-items: center;
+      padding-left: 22px;
+
+
+    }
+    .menu-ul{
+      display: none;
+      width: 100%;
+      flex-direction: column;
+    }
+    .menu-ul.show{
+      display: flex;
+    }
+
+
+
+
+    body{
+    	
+    	width: 106%;
+    }
+    .parallax{
+    	width: 106%;
+    }
+
+   
+    .menu {
+      text-align: center;
+      width: 106%;
+
+    }
+    .deel{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .deal{
+      width: 80%;
+    }
+    .bees{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+   .grood{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+   }
+    .menu a {
+      display:block;
+      border-bottom: 1px solid #eaeaeb;
+      margin: 0;
+    }
+    #toggle:checked + .menu{
+      display: block;
+    }
+    .grood{
+    	width: 90%;
+    }
+    .beej{
+    	width: 88%;
+    }
+
+   
+
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #5b8c5a;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+}
+
